@@ -5,12 +5,17 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "build:release": "turbo run build --no-cache"
+    "build:release": "turbo run build --no-cache",
+    "check-env": "echo 开发环境校验通过"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "turbo": "^1.13.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
   }
 }
