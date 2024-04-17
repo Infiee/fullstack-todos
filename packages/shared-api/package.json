@@ -1,0 +1,19 @@
+{
+  "name": "shared-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ts-rest/core": "^3.44.0",
+    "typescript": "^5.4.5",
+    "zod": "^3.22.4"
+  }
+}
