@@ -8,3 +8,6 @@
 pnpm i
 pnpm run dev
 ```
+
+### 预览图
+![preview.png](https://github.com/Infiee/fullstack-todos/blob/main/todos-preview.png)
